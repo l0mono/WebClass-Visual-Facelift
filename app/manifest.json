@@ -1,0 +1,10 @@
+{
+    "name":"WebClass_Visual_Facelift",
+    "description":"Finding lecture details taking up too much of your time? We're streamlining the timetable layout.",
+    "version":"1.0.0",
+    "content_scripts": [{
+        "matches": ["https://webclass.ipc.hiroshima-cu.ac.jp/webclass/?acs_=935655a2"],
+        "js": ["main.js"]
+    }],
+    "manifest_version":3
+}
